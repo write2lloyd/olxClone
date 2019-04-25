@@ -1,0 +1,75 @@
+[
+    {
+      "id": 122,
+      "categoryName": "Vehicles",
+      "subtitle": "2085 ads",
+      "icon": "https://www.iconsdb.com/icons/preview/guacamole-green/car-4-xxl.png"
+    },
+    {
+      "id": 123,
+      "categoryName": "Properties",
+      "subtitle": "2085 ads",
+      "icon": "http://www.newportrealtyprop.com/wp-content/uploads/2016/02/icon-property-1.png"
+      
+    },
+    {
+      "id": 124,
+      "categoryName": "Mobile Phones",
+      "subtitle": "2085 ads",
+      "icon": "http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/mobile-2-icon.png"
+    },
+    {
+      "id": 125,
+      "categoryName": "Electronics",
+      "subtitle": "2085 ads",
+      "icon": "https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/128x128/monitor.png"
+    },
+    {
+      "id": 126,
+      "categoryName": "Home & Garden",
+      "subtitle": "2085 ads",
+      "icon": "http://www.myiconfinder.com/uploads/iconsets/256-256-75906b27833b8daf0dde734fd4eceb3b.png"
+    },
+    {
+      "id": 127,
+      "categoryName": "Fashion & Beauty",
+      "subtitle": "2085 ads",
+      "icon": "https://www.iconsdb.com/icons/preview/royal-blue/t-shirt-xxl.png"
+    },
+    {
+      "id": 128,
+      "categoryName": "Pets",
+      "subtitle": "2085 ads",
+      "icon": "https://www.iconsdb.com/icons/preview/brown/paw-xxl.png"
+    },
+    {
+      "id": 129,
+      "categoryName": "Kids & Babies",
+      "subtitle": "2085 ads",
+      "icon": "https://www.shareicon.net/data/128x128/2015/08/15/85581_stroller_512x512.png"
+    },
+    {
+      "id": 130,
+      "categoryName": "Sporting Goods & Bikes",
+      "subtitle": "2085 ads",
+      "icon": "https://www.iconsdb.com/icons/preview/royal-blue/bicycle-xxl.png"
+    },
+    {
+      "id": 131,
+      "categoryName": "Hobbies Music, Art & Books",
+      "subtitle": "2085 ads",
+      "icon": "https://www.iconsdb.com/icons/preview/orange/alto-saxophone-xxl.png"
+    },
+    {
+      "id": 132,
+      "categoryName": "Jobs",
+      "subtitle": "2085 ads",
+      "icon": "https://www.iconsdb.com/icons/preview/soylent-red/briefcase-4-xxl.png"
+    },
+    {
+      "id": 133,
+      "categoryName": "Business & Industries",
+      "subtitle": "2085 ads",
+      "icon": "https://www.iconsdb.com/icons/preview/soylent-red/factory-xxl.png"
+    }
+  ]
