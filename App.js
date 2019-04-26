@@ -12,8 +12,7 @@ import Browse from './components/browse';
 import BrowseDetail from './components/browseDetail';
 import Favourites from './components/favourites';
 import PlaceAd from './components/placeAd';
-
-
+import FontAwesome from "react-native-vector-icons/FontAwesome";
 
 class App extends Component {
   render() {
@@ -42,13 +41,20 @@ const TabNavigator = createBottomTabNavigator({
     screen: modalStack,
     navigationOptions: {
       tabBarLabel: 'Browse',
-      // tabBarIcon: ({ tintColor }) => (
-      //     <Image source={require('./assets/icon.png')}
-      //       style= {{width:15, height:15, tintColor:'black'}}/>
-      // )
+      tabBarIcon: ({ tintColor }) => (
+        <FontAwesome name="home" size={30} color={tintColor} />
+      )
     },
   },
-  Favourites: Favourites
+  Favourites: {
+    screen: Favourites,
+    navigationOptions: {
+      tabBarLabel: 'Favourites',
+      tabBarIcon: ({ tintColor }) => (
+        <FontAwesome name="heart" size={30} color={tintColor} />
+      )
+    },
+  }
 });
 
 export default createAppContainer(TabNavigator);
