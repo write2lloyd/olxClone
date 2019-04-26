@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import { createBottomTabNavigator, createAppContainer, createStackNavigator } from 'react-navigation';
+import { View, Text, Image, createBottomTabNavigator, createAppContainer, createStackNavigator } from 'react-navigation';
 import Browse from './components/browse';
 import BrowseDetail from './components/browseDetail';
 import Favourites from './components/favourites';
@@ -38,7 +38,16 @@ const modalStack = createStackNavigator({
 });
 
 const TabNavigator = createBottomTabNavigator({
-  BrowseStack: modalStack,
+  BrowseStack: {
+    screen: modalStack,
+    navigationOptions: {
+      tabBarLabel: 'Browse',
+      // tabBarIcon: ({ tintColor }) => (
+      //     <Image source={require('./assets/icon.png')}
+      //       style= {{width:15, height:15, tintColor:'black'}}/>
+      // )
+    },
+  },
   Favourites: Favourites
 });
 
