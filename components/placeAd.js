@@ -1,7 +1,16 @@
 import React, {Component} from 'react';
-import {Text, TouchableHighlight} from 'react-native';
-
+import {Button, Text, TouchableHighlight} from 'react-native';
 class PlaceAd extends Component {
+  static navigationOptions = ({navigation }) => {
+    return {
+      headerLeft: (
+        <Button 
+          color= "#fff"
+          title= "Close"
+          onPress={() => navigation.goBack()}/>
+      )
+    }
+  };
   render() {
     return (
         <TouchableHighlight

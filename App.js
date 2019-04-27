@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import { View, Text, Image, createBottomTabNavigator, createAppContainer, createStackNavigator } from 'react-navigation';
+import { Button, TouchableOpacity, View, Text, Image, createBottomTabNavigator, createAppContainer, createStackNavigator } from 'react-navigation';
 import Browse from './components/browse';
 import BrowseDetail from './components/browseDetail';
 import Favourites from './components/favourites';
@@ -28,12 +28,25 @@ const BrowseStackNavigator = createStackNavigator({
 });
 
 const modalStack = createStackNavigator({
-  Main: {screen: BrowseStackNavigator},
-  PlaceAd: {screen: PlaceAd}
+  Main: {
+    screen: BrowseStackNavigator,
+    navigationOptions: {
+      header: null
+    },
+  },
+  PlaceAd: {
+    screen: PlaceAd,
+    navigationOptions: ({navigation}) => ({
+      headerTintColor: "#fff",
+      headerStyle: {
+        backgroundColor: '#008DCB'
+      },
+      title: 'Place an Ad'
+    }),
+  }
 },
 {
-  mode: "modal",
-  headerMode: "none"
+  mode: "modal"
 });
 
 const TabNavigator = createBottomTabNavigator({
